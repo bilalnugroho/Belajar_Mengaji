@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Mainpage"></activity>
+        <activity android:name=".Mainpage" />
+        <activity android:name=".HijaiyahPage" />
+        <activity android:name=".IqroPage"></activity>
     </application>
 
 </manifest>
