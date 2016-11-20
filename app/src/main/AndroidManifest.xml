@@ -18,12 +18,30 @@
         <activity android:name=".Mainpage" />
         <activity android:name=".HijaiyahPage" />
         <activity android:name=".IqroPage" />
-        <activity android:name=".Iqro1" />
-        <activity android:name=".Iqro2" />
-        <activity android:name=".Iqro3" />
-        <activity android:name=".Iqro4" />
-        <activity android:name=".Iqro5" />
-        <activity android:name=".Iqro6"></activity>
+        <activity
+            android:name=".Iqro1"
+            android:label="@string/title_activity_iqro1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Iqro2"
+            android:label="@string/title_activity_iqro2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Iqro3"
+            android:label="@string/title_activity_iqro3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Iqro4"
+            android:label="@string/title_activity_iqro4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Iqro5"
+            android:label="@string/title_activity_iqro5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Iqro6"
+            android:label="@string/title_activity_iqro6"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
