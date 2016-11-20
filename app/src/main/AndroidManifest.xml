@@ -17,7 +17,13 @@
         </activity>
         <activity android:name=".Mainpage" />
         <activity android:name=".HijaiyahPage" />
-        <activity android:name=".IqroPage"></activity>
+        <activity android:name=".IqroPage" />
+        <activity android:name=".Iqro1" />
+        <activity android:name=".Iqro2" />
+        <activity android:name=".Iqro3" />
+        <activity android:name=".Iqro4" />
+        <activity android:name=".Iqro5" />
+        <activity android:name=".Iqro6"></activity>
     </application>
 
 </manifest>
