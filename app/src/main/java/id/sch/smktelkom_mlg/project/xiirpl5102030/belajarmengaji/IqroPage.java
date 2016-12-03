@@ -34,7 +34,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Navigation.class));
+                startActivity(new Intent(IqroPage.this, Navigation2.class));
             }
 
         });
@@ -42,7 +42,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Navigation.class));
+                startActivity(new Intent(IqroPage.this, Navigation3.class));
             }
 
         });
@@ -50,7 +50,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Navigation.class));
+                startActivity(new Intent(IqroPage.this, Navigation4.class));
             }
 
         });
@@ -58,7 +58,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Navigation.class));
+                startActivity(new Intent(IqroPage.this, Navigation5.class));
             }
 
         });
@@ -66,7 +66,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq6).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Navigation.class));
+                startActivity(new Intent(IqroPage.this, Navigation6.class));
             }
 
         });

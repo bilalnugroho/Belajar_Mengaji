@@ -11,16 +11,15 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.project.xiirpl5102030.belajarmengaji.adapter.adapterr;
 import id.sch.smktelkom_mlg.project.xiirpl5102030.belajarmengaji.model.modyel;
 
-public class Navigation extends AppCompatActivity implements adapterr.Iadapterr {
+public class Navigation3 extends AppCompatActivity implements adapterr.Iadapterr {
 
-    public static final String ANU = "anu";
     ArrayList<modyel> mList = new ArrayList<>();
     adapterr mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_navigation);
+        setContentView(R.layout.activity_navigation2);
 
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
@@ -40,9 +39,8 @@ public class Navigation extends AppCompatActivity implements adapterr.Iadapterr 
 
     @Override
     public void doClick(int pos) {
-        Intent intent = new Intent(this, Iqro1.class);
+
+        Intent intent = new Intent(this, Iqro3.class);
         startActivity(intent);
-
-
     }
 }

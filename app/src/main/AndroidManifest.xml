@@ -42,7 +42,12 @@
             android:name=".Iqro6"
             android:label="@string/title_activity_iqro6"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Navigation"></activity>
+        <activity android:name=".Navigation" />
+        <activity android:name=".Navigation2" />
+        <activity android:name=".Navigation3" />
+        <activity android:name=".Navigation4" />
+        <activity android:name=".Navigation5" />
+        <activity android:name=".Navigation6"></activity>
     </application>
 
 </manifest>
