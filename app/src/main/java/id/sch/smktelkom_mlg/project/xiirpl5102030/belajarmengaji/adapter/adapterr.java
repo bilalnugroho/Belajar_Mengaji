@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -33,7 +33,7 @@ public class adapterr extends RecyclerView.Adapter<adapterr.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
 
         modyel modyel = modyelsList.get(position);
-        holder.ivFoto.setImageDrawable(modyel.foto);
+        holder.anu.setText(modyel.foto);
     }
 
 
@@ -45,11 +45,11 @@ public class adapterr extends RecyclerView.Adapter<adapterr.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        ImageView ivFoto;
+        TextView anu;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
+            anu = (TextView) itemView.findViewById(R.id.hal);
 
 
         }

@@ -41,7 +41,8 @@
         <activity
             android:name=".Iqro6"
             android:label="@string/title_activity_iqro6"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Navigation"></activity>
     </application>
 
 </manifest>

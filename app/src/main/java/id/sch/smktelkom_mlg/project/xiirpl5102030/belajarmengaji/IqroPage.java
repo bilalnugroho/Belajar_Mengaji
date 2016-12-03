@@ -26,7 +26,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq1).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Iqro1.class));
+                startActivity(new Intent(IqroPage.this, Navigation.class));
             }
 
         });
@@ -34,7 +34,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Iqro2.class));
+                startActivity(new Intent(IqroPage.this, Navigation.class));
             }
 
         });
@@ -42,7 +42,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Iqro3.class));
+                startActivity(new Intent(IqroPage.this, Navigation.class));
             }
 
         });
@@ -50,7 +50,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Iqro4.class));
+                startActivity(new Intent(IqroPage.this, Navigation.class));
             }
 
         });
@@ -58,7 +58,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq5).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Iqro5.class));
+                startActivity(new Intent(IqroPage.this, Navigation.class));
             }
 
         });
@@ -66,7 +66,7 @@ public class IqroPage extends AppCompatActivity {
         findViewById(R.id.btniq6).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(IqroPage.this, Iqro6.class));
+                startActivity(new Intent(IqroPage.this, Navigation.class));
             }
 
         });
